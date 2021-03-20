@@ -4,7 +4,7 @@ const router=express.Router();
 // requiring home controllers
 
 
-
+const mongo=require("../config/mongoose")
 
 
 // default home route
