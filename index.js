@@ -14,7 +14,7 @@ app.use(express.json());
 
 // using router as middleware
 app.use("/",router)
-ff
+
 // firing up the server
 app.listen(port,"localhost",function(err){
 
