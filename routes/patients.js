@@ -8,5 +8,5 @@ const patient = require("../controllers/patients");
 router.post('/register',passport.authenticate('jwt',{session: false}),patient.register);
 router.post('/:id/create_report',passport.authenticate('jwt',{session: false}),patient.createReport);
 router.get('/:id/all_reports',passport.authenticate('jwt',{session: false}),patient.allReports);
-sessionStorage= false;
+
 module.exports = router;
